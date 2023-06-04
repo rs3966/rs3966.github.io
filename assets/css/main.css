@@ -3825,6 +3825,7 @@ input, select, textarea {
 		text-align: center;
 	}
 
+
 		#main > header h2 {
 			font-size: 1.75em;
 			margin: 0 0 0.5em 0;
@@ -3997,3 +3998,77 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+	/* Researchlanding */
+
+		body.researchlanding #page-wrapper {
+			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/research.jpg");
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/research.jpg");
+			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/research.jpg");
+			background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/research.jpg");
+			background-attachment: fixed;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			padding-top: 0;
+		}
+
+		body.researchlanding #footer {
+			background-color: rgba(29, 36, 42, 0.9);
+		}
+
+		body.is-mobile.researchlanding #page-wrapper {
+			background: none;
+		}
+
+		body.is-mobile.researchlanding #banner,
+		body.is-mobile.researchlanding .wrapper.style4 {
+			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/research.jpg");
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/research.jpg");
+			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/research.jpg");
+			background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/research.jpg");
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		body.is-mobile.researchlanding #footer {
+			background-color: #1d242a;
+		}
+
+		/* Improvlanding */
+
+			body.improvlanding #page-wrapper {
+				background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/improv.jpg");
+				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/improv.jpg");
+				background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/improv.jpg");
+				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/improv.jpg");
+				background-attachment: fixed;
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				padding-top: 0;
+			}
+
+			body.improvlanding #footer {
+				background-color: rgba(29, 36, 42, 0.9);
+			}
+
+			body.is-mobile.improvlanding #page-wrapper {
+				background: none;
+			}
+
+			body.is-mobile.improvlanding #banner,
+			body.is-mobile.improvlanding .wrapper.style4 {
+				background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/improv.jpg");
+				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/improv.jpg");
+				background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/improv.jpg");
+				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/improv.jpg");
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+
+			body.is-mobile.improvlanding #footer {
+				background-color: #1d242a;
+			}
