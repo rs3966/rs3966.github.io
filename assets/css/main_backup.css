@@ -1428,42 +1428,32 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			#header {
-				padding: 1.5rem 0;
+			#header > * {
+				margin-top: 2rem;
 			}
 
-				#header .content .inner {
-					padding: 2.5rem 0;
+				#header > *:before {
+					top: calc(-2rem - 1px);
+					height: calc(2rem + 1px);
 				}
 
-				#header nav ul {
-					-moz-flex-direction: column;
-					-webkit-flex-direction: column;
-					-ms-flex-direction: column;
-					flex-direction: column;
-					min-width: 10rem;
-					max-width: 100%;
+			#header .logo {
+				width: 4.75rem;
+				height: 4.75rem;
+				line-height: 4.75rem;
+			}
+
+				#header .logo .icon:before {
+					font-size: 1.75rem;
 				}
 
-					#header nav ul li {
-						border-left: 0;
-						border-top: solid 1px #ffffff;
-					}
+			#header .content .inner {
+				padding: 2.5rem 1rem;
+			}
 
-						#header nav ul li:first-child {
-							border-top: 0;
-						}
-
-						#header nav ul li a {
-							height: 3rem;
-							line-height: 3rem;
-							min-width: 0;
-							width: 100%;
-						}
-
-				#header nav.use-middle:after {
-					display: none;
-				}
+			#header .content p {
+				line-height: 1.875;
+			}
 
 		}
 
