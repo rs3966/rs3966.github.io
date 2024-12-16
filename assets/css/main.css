@@ -123,7 +123,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 903px) {
 
 			html {
 				font-size: 11pt;
@@ -226,7 +226,7 @@ input, select, textarea {
 		font-size: 0.6rem;
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 903px) {
 
 		h1 {
 			font-size: 1.75rem;
@@ -704,7 +704,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 903px) {
 
 			.image.main {
 				margin: 2rem 0;
@@ -1216,7 +1216,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 903px) {
 
 			#wrapper {
 				padding: 2rem 1rem;
@@ -1426,7 +1426,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 903px) {
 
 			#header {
 				padding: 1.5rem 0;
@@ -1606,7 +1606,7 @@ input, select, textarea {
 					background-color: rgba(255, 255, 255, 0.175);
 				}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 903px) {
 
 			#main article {
 				padding: 3.5rem 2rem 0.5rem 2rem ;
